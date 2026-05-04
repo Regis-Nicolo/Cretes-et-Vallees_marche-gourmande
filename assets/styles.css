@@ -1,0 +1,89 @@
+body{
+    background-color: rgba(1,112,7,0.7);
+}
+ h1 {
+  font-size: 2.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgb(9,1,120);
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font-size: 2.5em;
+  color: rgb(9,1,120);
+  text-align: center;
+}
+p {
+  font-size: 1.7em;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer, .diapo { 
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 1em;
+}
+a {
+  font-size: 1.7em;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+}
+video {
+  width: 50em;
+  height: 30em;
+}
+
+@media screen and (max-width: 399px) {
+  h1 {
+  font-size: 1.1em;
+  }
+  h2, p {
+    font-size: 1em;
+  }
+  video {
+    width: 16em;
+    height: 17em;
+  }
+  a {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 599px) {
+  h1 {
+  font-size: 1.5em;
+  }
+  h2 {
+  font-size: 1.4em;
+  }
+  p {
+   font-size: 1.3em;
+  }
+  video {
+    width: 25em;
+    height: 13em;
+  }
+    
+ } 
+@media screen and (min-width: 600px) and (max-width: 799px) {
+  h1 {
+  font-size: 2em;
+  }
+  h2 {
+    font-size: 1.8em;
+   }
+ 
+  video {
+    width: 37em;
+    height: 23em;
+  }
+  p {
+    font-size: 1.6em;
+  }
+}

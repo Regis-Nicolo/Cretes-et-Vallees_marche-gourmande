@@ -35,7 +35,7 @@ a {
   color: #FFF;
   font-weight: bold;
 }
-video {
+iframe {
   width: 50em;
   height: 30em;
 }
@@ -65,7 +65,7 @@ video {
   p {
    font-size: 1.3em;
   }
-  video {
+  iframe {
     width: 25em;
     height: 13em;
   }
@@ -79,7 +79,7 @@ video {
     font-size: 1.8em;
    }
  
-  video {
+  iframe {
     width: 37em;
     height: 23em;
   }

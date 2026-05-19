@@ -35,11 +35,14 @@ a {
   color: #FFF;
   font-weight: bold;
 }
-iframe {
-  width: 50em;
-  height: 30em;
+.diapo iframe {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 3 / 2;
+  border: 0;
+  display: block;
+  margin: 0 auto;
 }
-
 @media screen and (max-width: 399px) {
   h1 {
   font-size: 1.1em;
@@ -65,10 +68,6 @@ iframe {
   p {
    font-size: 1.3em;
   }
-  iframe {
-    width: 25em;
-    height: 13em;
-  }
     
  } 
 @media screen and (min-width: 600px) and (max-width: 799px) {
@@ -78,11 +77,6 @@ iframe {
   h2 {
     font-size: 1.8em;
    }
- 
-  iframe {
-    width: 37em;
-    height: 23em;
-  }
   p {
     font-size: 1.6em;
   }

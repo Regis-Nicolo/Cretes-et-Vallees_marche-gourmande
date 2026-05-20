@@ -36,8 +36,6 @@ a {
   font-weight: bold;
 }
 .diapo iframe {
-  display: block;
-  margin: auto;
   width: 100%;
   max-width: 900px;
   aspect-ratio: 3 / 2;
